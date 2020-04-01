@@ -1,0 +1,86 @@
+
+
+.icon{
+    height: 80px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #939090;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+.icon .row .col-sm-2{
+    font-size: 30px;
+    line-height: 80px;
+    text-align: center;
+}
+
+
+.card-part{
+    margin-bottom: 50px;
+}
+.card{
+    border: 0px solid black !important;
+}
+.card-img{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 25px;
+}
+.card-img i{
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border: 4px solid grey;
+    border-radius: 50%;
+}
+
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  @media (max-width: 760px) {
+    .swiper-button-next {
+      right: 20px;
+      transform: rotate(90deg);
+    }
+
+    .swiper-button-prev {
+      left: 20px;
+      transform: rotate(90deg);
+    }
+  }
+  .swiper-slide img{
+      border: 2px solid black;
+      border-radius: 5px;
+  }
+  .social-icon a{
+      text-decoration: none;
+  }
+.social-icon a i{
+    font-size: 25px;
+    border-radius: 50%;
+    border: 2px solid #eaeaea;
+    padding: 4px;
+    text-decoration: none;
+}
+
